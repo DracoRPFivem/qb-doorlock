@@ -63,8 +63,8 @@ Config.DoorList = {
 	--door2 for pacific opened with thermite right near the vault door
 	{
 		objName = 'hei_v_ilev_bk_safegate_pris',
-		objCoords  = vec3(252.98, 220.65, 101.8),
-		textCoords = vec3(252.98, 220.65, 101.8),
+		objCoords  = vec3(244.16, 217.97, 97.12),
+		textCoords = vec3(244.16, 217.97, 97.12),
 		authorizedJobs = { 'police' },
 		objYaw = 160.0,
 		locked = true,
@@ -74,8 +74,8 @@ Config.DoorList = {
 	-- door3 for pacific opened with thermite after passing the door near vault
 	{
 		objName = 'hei_v_ilev_bk_safegate_pris',
-		objCoords  = vec3(261.68, 215.62, 101.81),
-		textCoords = vec3(261.68, 215.62, 101.81),
+		objCoords  = vec3(249.63, 232.9, 97.12),
+		textCoords = vec3(249.63, 232.9, 97.12),
 		authorizedJobs = { 'police' },
 		objYaw = -110.0,
 		locked = true,
@@ -107,8 +107,8 @@ Config.DoorList = {
 	-- First Pacific Door opened with lockpick
 	{
 		objName = 'hei_v_ilev_bk_gate_pris',
-		objCoords  = vec3(257.41, 220.25, 106.4),
-		textCoords = vec3(257.41, 220.25, 106.4),
+		objCoords  = vec3(270.1032, 212.9229, 97.31798),
+		textCoords = vec3(270.1032, 212.9229, 97.31798),
 		authorizedJobs = { 'police' },
 		objYaw = -20.0,
 		locked = true,
@@ -118,8 +118,8 @@ Config.DoorList = {
 	-- Second Pacific Door opened with lockpick
 	{
 		objName = 'v_ilev_bk_door',
-		objCoords  = vec3(265.19, 217.84, 110.28),
-		textCoords = vec3(265.19, 217.84, 110.28),
+		objCoords  = vec3(272.6422, 219.8987, 97.31798),
+		textCoords = vec3(272.6422, 219.8987, 97.31798),
 		authorizedJobs = { 'police' },
 		objYaw = -20.0,
 		locked = true,
