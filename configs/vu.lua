@@ -3,7 +3,7 @@
 
 -- Entry
 table.insert(Config.DoorList, {
-	authorizedJobs = { ['vanilla']=0 },
+	authorizedJobs = { ['vanilla']=3,4 },
 	objCoords = vector3(127.95, -1298.506, 29.41962),
 	objHeading = 29.999988555908,
 	objHash = -1116041313, -- prop_strip_door_01
@@ -79,7 +79,7 @@ table.insert(Config.DoorList, {
 
 -- Boss door (behind the scene)
 table.insert(Config.DoorList, {
-	authorizedJobs = { ['vanilla']=0 },
+	authorizedJobs = { ['vanilla']=4 },
 	objCoords = vector3(99.08306, -1293.69, 29.4404),
 	objHash = 390840000, -- ba_prop_door_club_edgy_generic
 	objHeading = 29.999988555908,
@@ -98,7 +98,7 @@ table.insert(Config.DoorList, {
 
 -- Entry 2 (boss access)
 table.insert(Config.DoorList, {
-	authorizedJobs = { ['vanilla']=0 },
+	authorizedJobs = { ['vanilla']=4 },
 	objCoords = vector3(96.09198, -1284.854, 29.43878),
 	objHash = 1695461688, -- ba_prop_door_club_glam_generic
 	objHeading = 210.0,
@@ -114,3 +114,18 @@ table.insert(Config.DoorList, {
 	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
 	-- autoLock = 1000
 })
+
+-- Kitchendoor created by jokernights
+Config.DoorList['vu-Kitchendoor'] = {
+    objYaw = 30.000001907348,
+    objName = 1695461688,
+    locked = true,
+    doorType = 'door',
+    doorRate = 1.0,
+    objCoords = vec3(132.234208, -1288.303100, 29.434970),
+    authorizedJobs = { ['vanilla'] = 1 },
+    fixText = false,
+    doorLabel = 'kitchendoor',
+    hideLabel = true,
+    distance = 2,
+}
